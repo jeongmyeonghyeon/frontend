@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.scss';
+import PostList from "./PostList";
 
 function App() {
   return (
     <div className="App">
-      complete settings !!!
+      <PostList/>
     </div>
   );
 }
